@@ -1,0 +1,10 @@
+<aura:component implements="force:appHostable,flexipage:availableForAllPageTypes,flexipage:availableForRecordHome,force:hasRecordId,forceCommunity:availableForAllPageTypes,force:lightningQuickAction" access="global" >
+    <div style="color: blue;font: 30px Times New Roman;"> Component_1</div>
+    <aura:registerEvent name="appEvent" type="c:ApplicationEvent"/>
+    <aura:attribute name="CmpMessage" type="String"/>
+    <lightning:card >
+        <lightning:input type="text" label="Message  :  " value="{!v.CmpMessage}"/>
+        <lightning:button label="Send Message" onclick="{!c.myAction}"/>
+    </lightning:card>
+    
+</aura:component>

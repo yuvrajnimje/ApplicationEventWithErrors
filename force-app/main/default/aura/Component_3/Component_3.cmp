@@ -1,0 +1,8 @@
+<aura:component >
+    <div style="color: red;font: 30px Times New Roman;"> Component_3</div>
+    <aura:attribute name="Cmp_2_Message" type="String"/>
+    <aura:handler event="c:ApplicationEvent" phase="capture" action="{!c.handleApplicationEvent}"/>
+    <lightning:card>
+        <div>Message From Component_1 is :>>> {!v.Cmp_2_Message}</div>
+    </lightning:card>
+</aura:component>

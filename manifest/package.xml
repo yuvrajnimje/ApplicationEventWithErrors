@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<Package xmlns="http://soap.sforce.com/2006/04/metadata">
+	<types>
+		<members>ApplicationEvent</members>
+		<members>Component_1</members>
+		<members>Component_2</members>
+		<members>Component_3</members>
+		<members>DemoApplication</members>
+		<name>AuraDefinitionBundle</name>
+	</types>
+	<version>58.0</version>
+</Package>

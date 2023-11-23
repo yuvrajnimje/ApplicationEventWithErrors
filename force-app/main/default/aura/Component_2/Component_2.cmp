@@ -1,0 +1,8 @@
+<aura:component implements="force:appHostable,flexipage:availableForAllPageTypes,flexipage:availableForRecordHome,force:hasRecordId,forceCommunity:availableForAllPageTypes,force:lightningQuickAction" access="global" >
+    <div style="color: red;font: 30px Times New Roman;"> Component_2</div>
+    <aura:attribute name="Cmp_1_Message" type="String"/>
+    <aura:handler event="c:ApplicationEvent" action="{!c.handleApplicationEvent}"/>
+    <lightning:card>
+        <div>Message From Component_1 is :>>> {!v.Cmp_1_Message}</div>
+    </lightning:card>
+</aura:component>
